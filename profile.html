@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <!-- ------google fonts link---- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- ------remix icon cdn----- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- -------nav section-- -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href=""><img src="images/notification.png" alt=""></a></li>
+                <li><a href=""><img src="images/inbox.png" alt=""></a></li>
+                <li><a href=""><img src="images/video.png" alt=""></a></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+      <!-- -------settings menu--- -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                  <div class="user-profile">
+                <img src="images/profile-pic.png" alt="">
+                <div>
+                    <p>John Nicholaus</p>
+                    <a href="profile.html">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings and Privacy <img src="images/arrow.png"  alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help and Support <img src="images/arrow.png"  alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display and Accessibility <img src="images/arrow.png"  alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#">Log Out <img src="images/arrow.png"  alt=""></a>
+            </div>
+            </div>
+          
+
+        </div>
+    </nav>
+ <!-- --------end of nav section--- -->
+
+
+<!-- ------profile page section---- -->
+    <div class="profile-container">
+        <img src="images/cover.png" alt="" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>1.3k friends - 202 mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png" alt=""> Friend</button>
+                <button type="button"><img src="images/message.png" alt=""> Messaage</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">For everything that you do or think , just remember that life is coming from you and not at you. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt=""> Software Engineer at Haxo cooperations</li>
+                        <li><img src="images/profile-study.png" alt=""> Course at appAcademy</li>
+                        <li><img src="images/profile-study.png" alt=""> Degree from Kisii University</li>
+                        <li><img src="images/profile-home.png" alt=""> Lives in Newyork</li>
+                        <li><img src="images/profile-location.png" alt=""> From Kisumu,Kenya</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="#">All photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/photo2.png" alt=""></div>
+                        <div><img src="images/photo3.png" alt=""></div>
+                        <div><img src="images/photo5.png" alt=""></div>
+                        <div><img src="images/photo6.png" alt=""></div>
+                        <div><img src="images/photo4.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="#">All friends</a>
+                    </div>
+                    <p>1.3K (202 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-3.png" alt=""><p>Lily S</p></div>
+                        <div><img src="images/member-4.png" alt="">Nathan H</div>
+                        <div><img src="images/member-6.png" alt="">Emily J</div>
+                        <div><img src="images/member-9.png" alt="">Larry R</div>
+                        <div><img src="images/member-7.png" alt="">Wayn T</div>
+                        <div><img src="images/member-1.png" alt="">Velma O</div>
+                        <div><img src="images/member-2.png" alt="">Gregory O</div>
+                        <div><img src="images/member-8.png" alt="">Danice K</div>
+                        <div><img src="images/member-5.png" alt="">Chris H</div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholaus</p>
+                            <small>Public <i class="ri-arrow-down-s-fill"></i></small>
+                        </div>
+                    </div>
+        
+                    <div class="post-input-container">
+                        <textarea  rows="3" placeholder="what's on your mind, John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="images/Photo.png" alt="">Photo Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling Activity</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholaus</p>
+                            <span>June 25 2023, 19:05 pm</span>
+                        </div>
+                    </div>
+        
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                    </div>
+                   
+                    <p  class="post-text">Subscribe to my channel <span>@frontEndGreg</span> for your weekly videos about the web and tutorials.<a href="#">#frontEndGreg</a> <a href="#">#YoutubeChannel</a></p>
+                     <img src="images/feed-image-1.png" class="post-img">
+                     <div class="post-row">
+                        <div class="activity-icons">
+                             <div><img src="images/like-blue.png" alt="">5.5k</div>
+                             <div><img src="images/comments.png" alt="">433</div>
+                             <div><img src="images/share.png" alt="">1.2k</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="images/profile-pic.png" alt=""> <i class="ri-arrow-down-s-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholaus</p>
+                            <span>June 23 2023, 15:05 pm</span>
+                        </div>
+                    </div>
+        
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                    </div>
+                   
+                    <p  class="post-text">Chills,just making memories with friends at the<span>beach.</span>Bondfires are the best.</p>
+                     <img src="images/feed-image-2.png" class="post-img">
+                     <div class="post-row">
+                        <div class="activity-icons">
+                             <div><img src="images/like-blue.png" alt="">1.1k</div>
+                             <div><img src="images/comments.png" alt="">220</div>
+                             <div><img src="images/share.png" alt="">71</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="images/profile-pic.png" alt=""> <i class="ri-arrow-down-s-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholaus</p>
+                            <span>June 19 2023, 9:05 am</span>
+                        </div>
+                    </div>
+        
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                    </div>
+                   
+                    <p  class="post-text">Nothing like long walks with pals at <span>flower street .</span>We got each other.</p>
+                     <img src="images/feed-image-3.png" class="post-img">
+                     <div class="post-row">
+                        <div class="activity-icons">
+                             <div><img src="images/like-blue.png" alt="">1.7k</div>
+                             <div><img src="images/comments.png" alt="">197</div>
+                             <div><img src="images/share.png" alt="">49</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="images/profile-pic.png" alt=""> <i class="ri-arrow-down-s-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholaus</p>
+                            <span>June 18 2023, 18:05 pm</span>
+                        </div>
+                    </div>
+        
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                    </div>
+                   
+                    <p  class="post-text">The smiles she makes working from <span>home.</span> Happiness .</p>
+                     <img src="images/feed-image-4.png" class="post-img">
+                     <div class="post-row">
+                        <div class="activity-icons">
+                             <div><img src="images/like-blue.png" alt="">3.1k</div>
+                             <div><img src="images/comments.png" alt="">1.4k</div>
+                             <div><img src="images/share.png" alt="">992</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="images/profile-pic.png" alt=""> <i class="ri-arrow-down-s-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholaus</p>
+                            <span>June 15 2023, 11:05 am</span>
+                        </div>
+                    </div>
+        
+                    <a href="#"><i class="ri-more-2-fill"></i></a>
+                    </div>
+                   
+                    <p  class="post-text">Getting creative with ideas at <span>work.</span> Group work equal teamwork.</p>
+                     <img src="images/feed-image-5.png" class="post-img">
+                     <div class="post-row">
+                        <div class="activity-icons">
+                             <div><img src="images/like-blue.png" alt="">1.6k</div>
+                             <div><img src="images/comments.png" alt="">201</div>
+                             <div><img src="images/share.png" alt="">55</div>
+                        </div>
+                        <div class="post-profile-icon">
+                             <img src="images/profile-pic.png" alt=""> <i class="ri-arrow-down-s-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+               
+            </div>
+        </div>
+    </div>
+<!-- ------end of profile page section---- -->
+
+ <!-- ---footer---- -->
+ <footer >
+    <p>&copy Copyright 2023 - frontendGreg</p>
+ </footer>
+<!-- ----end of footer----- -->
+    <script src="script.js"></script>
+</body>
+</html>
